@@ -16,6 +16,20 @@
 </head>
 <body>
 
+
+<? CModule::IncludeModule("iblock"); ?>
+<!doctype html>
+<html lang="ru">
+<head>
+    <title><?$APPLICATION->ShowTitle()?></title>
+	<?$APPLICATION->ShowHead()?>
+</head>
+
+<body>
+<?$APPLICATION->ShowPanel()?>
+
+
+
 <p><a href="menu-1-akardion.php">Меню - 1 - акардион</a>
     
 <!-- Optional JavaScript -->
